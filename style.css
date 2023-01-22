@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: italic;
+    font-style: normal;
+    font-family: 'Fraunces', serif;
+}
+h2{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif ;
+    letter-spacing: 5px;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card{
+    width: 90vw;
+    height: 93vh;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.card__img img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0; 
+ 
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    width: 80vw;
+    padding: 5px 0 0 20px;
+    }
+
+.texto h2{
+
+    margin-bottom: 8px;
+   
+}
+.texto h1{
+    margin: 14px 0;
+    width: 70vw;
+    line-height: 25px;
+}
+
+.texto p{
+
+    font-size: 14px;
+    width: 76vw;
+    line-height: 22px;
+    margin: 10px 0px;
+    font-weight: 500;
+    font-family:'montserrat';
+}
+
+.precios{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.precios .precio__nuevo{
+    font-size: 30px;
+    padding-right: 13px;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-family:'Fraunces', serif ;
+}
+
+.precios .precio{
+
+    font-size: 11px;
+    font-weight: 800;
+    padding-left: 10px;
+    font-family: 'montserrat';
+}
+
+.boton{
+    width: 100%vw;
+    height: 40px;
+    border-radius: 6px;
+    background-color: hsl(158, 36%, 37%);
+    margin: 10px 0;
+   
+
+}
+.boton a{
+    color: white;
+    text-decoration:none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.boton:hover{
+    background-color: hsl(168, 26%, 27%);
+
+
+}
